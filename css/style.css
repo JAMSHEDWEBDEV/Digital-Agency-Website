@@ -166,6 +166,7 @@ nav{
     text-align: center;
     align-items: center;
     margin-top: -70px;
+    margin-bottom: 30px;
 } 
 .appoin_left{
     display: flex;
@@ -187,3 +188,48 @@ nav{
     font-size: 20px;
 }
                   /* appointment section css end  */
+                  /* blog section css code start  */
+.blog_content{
+    text-align: center;
+}
+.blog_content h1{
+       font-weight: bold;
+       font-size: 30px;
+       margin:15px 0 ;
+}
+.blog_content p{
+      font-size: 20px;
+      margin-bottom: 50px;
+}
+.blog_all_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.blog_card{
+    width: 400px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px gray;
+}
+.blog_card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.blog_card h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 10px;
+    margin: 15px 0;
+
+}
+.blog_card p{
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+
+                  /* blog section css code end  */
