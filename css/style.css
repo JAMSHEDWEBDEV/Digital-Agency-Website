@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+              /* nav section css code start  */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 15px;
+    align-items: center;
+}
+.menus ul{
+    display: flex;
+    gap: 40px;
+}
+.menus ul li{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+                  /* nav section css code end  */
+
+                  /* banner section css code start  */
+ .banner{
+    height: 100vh;
+    background-image: url(../images/image/background.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+ }
+ .banner_content h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+ }
+ .primary_color{
+    color: red;
+ }
+ .banner_content p{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+ }
+ .btn{
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 20px;
+ }
+ .bg_color{
+    background-color: red;
+    color: white;
+ }
+
+                  /* banner section css code end  */
+
+                  /* service section css code start  */
+.service_main{
+    display: flex;
+    height: 100vh;
+    background-image: url(../images/image/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    align-items: center;
+}
+.service_right{
+    padding-right: 30px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.box1_item{
+    margin: 0 auto;
+}
+.box_img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+.all_box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+/* left side css */
+.service_left{
+    padding-left: 30px;
+}
+.sevive_list{
+    border-radius: 20px;
+}
+.left_content h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.left_content p{
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.left_content li{
+    color:white;
+    font-size: 20px;
+}
+.left_buttom{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.buttom_left{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid red;
+
+}
+.left_img img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.left_content{
+    color: white;
+    padding-right: 50px;
+}
+.buttom_right{
+    padding-left: 10px;
+}
+.buttom_right button{
+    border-radius: 30px;
+    color: red;
+}
+
+                  /* service section css code end  */
