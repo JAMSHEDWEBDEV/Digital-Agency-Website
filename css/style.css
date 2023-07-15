@@ -230,6 +230,142 @@ nav{
     font-size: 15px;
     padding: 0 10px;
 }
-
-
                   /* blog section css code end  */
+
+/* responsive part start  */
+
+/* exta small device responsive code start  */
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+    .service_main{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+
+    }
+    .menus ul li{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .banner_content h1{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .all_box{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .box{
+        border: 1px solid blue;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px green;
+    }
+    .main_appointment{
+        flex-direction: column;
+        height: 350px;
+        margin-top: 1300px;
+    }
+    .appoin_left{
+        border-right: none;
+        padding-top: 40px;
+    }
+    .appoin_middle{
+        width: 90%;
+    }
+    .blog_all_card{
+        flex-direction: column;
+    }
+}
+/* extra small device responsive code end  */
+
+/* small device responsive code start  */
+@media screen and (min-width:576px) and (max-width:768px) {
+    .service_main{
+        flex-direction: column;
+    }
+    .menus ul li{
+        font-size: 20px;
+    }
+    .all_box{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .box{
+        border: 1px solid blue;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px green;
+        background-color: burlywood;
+        width: 500px;
+    }
+    .main_appointment{
+        flex-direction: column;
+        height: 350px;
+        margin-top: 1300px;
+        width: 85%;
+    }
+    .appoin_left{
+        border-right: none;
+        padding-top: 40px;
+    }
+    .appoin_middle{
+        width: 80%;
+    }
+    .blog_all_card{
+        flex-direction: column;
+    }
+    .blog_card{
+        width: 85%;
+        height: 580px;
+    }
+}
+/* small device responsive code end  */
+
+/* medium device responsive code start  */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .service_main{
+        flex-direction: column;
+    } 
+    .main_appointment{
+        margin-top: 700px;
+    } 
+    .all_box{
+        margin-top: 60px;
+        background-color: black;
+    }
+    .box{
+        box-shadow: 0 0 10px black;
+    }
+    .appoin_middle{
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    .blog_all_card{
+        padding: 0 20px;
+    }
+}
+/* medium device responsive code end  */
+
+/* large device responsive code start  */
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .service_main{
+        flex-direction: column;
+    }
+    .all_box{
+        margin-top: 90px;
+    }
+    .box{
+        box-shadow: 1px 1px 5px 1px yellowgreen;
+    }
+    .main_appointment{
+        margin-top: 750px;
+    }
+    .blog_all_card{
+        padding: 0 30px;
+    }   
+} 
+/* large device responsive code end  */
+/* responsive part end  */
+
